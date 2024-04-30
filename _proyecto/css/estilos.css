@@ -7,7 +7,7 @@
 }
 
 body{
-    color: #1E1E1E;
+    color: #202630;
     font-family: "Figtree", sans-serif;
 }
 
@@ -30,3 +30,61 @@ header{
         margin: 8px;
         text-decoration: none;/* quitar subrayado */
     }
+
+/* hero banner */
+#hero{
+    height: 680px;
+    /*
+    * Created with https://www.css-gradient.com
+    * Gradient link: https://www.css-gradient.com/?c1=37d2dc&c2=5b86e5&gt=l&gd=dbb
+    */
+    background: #37D2DC;
+    background: linear-gradient(0deg, #37D2DC, #5B86E5);
+}
+    #hero div{
+        width: 1100px;
+        height: 680px;
+        margin: auto;
+        display: flex;
+        align-items: center; /* Centrar en vertical el contenido del DIV */
+        justify-content: space-between;
+    }
+        #hero div article{
+            color: #fff;
+        }
+            #hero div article h1{
+                font-weight: 400;
+                font-size: 24px;
+                margin-bottom: 40px;
+            }
+            #hero div article h2{
+                font-size: 40px;
+                width: 478px;
+            }
+
+/* sección servicios */
+#servicios{
+    width: 1100px;
+    height: 414px;
+    margin: auto;
+    margin-top: 72px;
+    padding: 32px 24px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    /* background-color: #cfeff264; */
+}
+    #servicios article{
+        width: 336px;
+        height: 288px;
+        border: 2px solid #07B2FF;
+        border-radius: 8px;
+    }
+        #servicios h2{
+            width: 100%;
+            text-align: center;
+            font-weight: 400;
+            margin-bottom: 32px;
+        }
