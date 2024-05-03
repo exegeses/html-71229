@@ -32,6 +32,7 @@ header{
     }
 
 /* hero banner */
+
 #hero{
     height: 680px;
     /*
@@ -62,6 +63,11 @@ header{
                 width: 478px;
             }
 
+/* main */
+main{
+    min-height: 500px;
+}
+
 /* sección servicios */
 #servicios{
     width: 1100px;
@@ -76,15 +82,53 @@ header{
 
     /* background-color: #cfeff264; */
 }
+    #servicios h2{
+        width: 100%;
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 32px;
+    }
     #servicios article{
         width: 336px;
         height: 288px;
+        padding: 24px 32px;
+        font-weight: 300;
+        color: #07B2FF;
         border: 2px solid #07B2FF;
         border-radius: 8px;
     }
-        #servicios h2{
-            width: 100%;
-            text-align: center;
-            font-weight: 400;
-            margin-bottom: 32px;
+        #servicios article h3{
+            font-weight: 300;
+            /*margin-top: 24px;
+            margin-bottom: 16px;*/
+            margin: 24px 0px 16px 0px;
         }
+        #servicios article p{
+            margin-bottom: 8px;
+        }
+        #servicios article a{
+            text-decoration: none;
+            color: #07B2FF;
+        }
+
+
+/* footer */
+footer{
+    margin-top: 72px;
+    background-color: #0B1E46;
+}
+    footer div{
+        height: 216px;
+        width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #logofooter{
+        width: 92px;
+    }
+    footer div nav a{
+        margin: 16px;
+    }
+
