@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    color: #2d443f;
+    background-color: hsla(270, 90%, 50%, 25%);
+    font-family: "Figtree", sans-serif;
+    font-size: 1.5em;
+}
+main{
+    width: 768px;
+    margin: 56px auto;
+    background-color: #fff;
+    border-radius: 32px;
+    box-shadow: 0px 0px 4px  hsla(270, 94%, 6%, 30%);
+    padding: 32px;
+}
+p{
+    margin: 32px 0px;
+}   
+/* sombra en el texto */    
+#parrafo1{
+    color: #f60;
+    /* text-shadow:  x  y  blur  color */
+    text-shadow: 2px 2px 4px #666;
+}
+
+#parrafo2{
+    padding: 0px 8px 16px 0px;
+    /* box-shadow:  x  y  blur  color */
+    box-shadow: 2px 2px 0px  hsl(270, 90%, 50%);;
+}
+#parrafo3{
+    /* box-shadow:  x  y  blur  color */
+    box-shadow: 0px 2px 4px  hsla(270, 94%, 6%, 25%);
+}
+#parrafo4{
+    padding: 16px;
+    border-radius: 16px;
+    /* box-shadow:  x  y  blur  color */
+    box-shadow: 0px 0px 4px  hsla(270, 94%, 6%, 30%);
+}
+#parrafo4:hover{
+    box-shadow: 0px 0px 6px  hsla(270, 94%, 6%, 50%);
+}
